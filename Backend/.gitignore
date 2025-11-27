@@ -1,0 +1,22 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore the uploads folder (to prevent uploading user images to GitHub)
+uploads/
+
+# Ignore .env file (for environment variables)
+.env
+
+# Ignore the log files
+*.log
+
+# Ignore IDE settings (VSCode example)
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore backend specific files
+Backend/node_modules/
+Backend/uploads/

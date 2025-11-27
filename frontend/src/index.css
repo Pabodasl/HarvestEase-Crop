@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+/* Calendar Highlight Styles */
+.fertilization-day {
+  background-color: #bbf7d0 !important; /* green-200 */
+  border-radius: 50% !important;
+}
+
+.harvest-day {
+  background-color: #fde68a !important; /* yellow-300 */
+  border-radius: 50% !important;
+}
+
